@@ -17,13 +17,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:text="Map" />
+            android:text="@string/textview1" />
 
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="建物名・地名・住所等"/>
+            android:hint="@string/hint1" />
 
 
         <LinearLayout
@@ -41,38 +41,38 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="camera"
-                    android:text="カメラ" />
+                    android:text="@string/button1" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="map"
-                    android:text="地図" />
+                    android:text="@string/button2" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="gallery"
-                    android:text="画像" />
+                    android:text="@string/button3" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="mail"
-                    android:text="メール" />
+                    android:text="@string/button4" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="app"
-                    android:text="アプリ" />
+                    android:text="@string/button5" />
 
                 <Button
                     android:id="@+id/Browser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="browser"
-                    android:text="LiT!公式HP" />
+                    android:text="@string/button6" />
 
             </LinearLayout>
 
@@ -81,7 +81,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:contentDescription="画像"/>
+                android:contentDescription="画像" />
 
         </LinearLayout>
 
@@ -90,14 +90,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:text="Mail" />
+            android:text="@string/textview2" />
 
         <EditText
             android:id="@+id/mailtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="題名"
+            android:hint="@string/hint2"
             android:maxLines="1" />
 
         <EditText
@@ -105,14 +105,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="本文"
+            android:hint="@string/hint3"
             android:maxLines="6" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="mail"
-            android:text="メール" />
+            android:text="@string/button4" />
 
 
     </LinearLayout>

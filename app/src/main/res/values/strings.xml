@@ -5,4 +5,10 @@
     <string name="hint1">建物名・地名・住所等</string>
     <string name="hint2">題名</string>
     <string name="hint3">本文</string>
+    <string name="button1">カメラ</string>
+    <string name="button2">地図</string>
+    <string name="button3">画像</string>
+    <string name="button4">メール</string>
+    <string name="button5">アプリ</string>
+    <string name="button6">LiT!公式HP</string>
 </resources>
