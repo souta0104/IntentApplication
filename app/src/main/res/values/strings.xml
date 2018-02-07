@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">IntentApplication</string>
+    <string name="textview1">Map</string>
+    <string name="textview2">Mail</string>
+    <string name="hint1">建物名・地名・住所等</string>
+    <string name="hint2">題名</string>
+    <string name="hint3">本文</string>
 </resources>
